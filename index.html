@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tack Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Tic Tack</div>
+            <table>
+                <tr>
+                    <td><div id="b1"  onclick="monitor('b1')"></div></td>
+                    <td><div id="b2" onclick="monitor('b2')"></div></td>
+                    <td><div id="b3" onclick="monitor('b3')"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="b4" onclick="monitor('b4')"></div></td>
+                    <td><div id="b5" onclick="monitor('b5')"></div></td>
+                    <td><div id="b6" onclick="monitor('b6')"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="b7" onclick="monitor('b7')"></div></td>
+                    <td><div id="b8" onclick="monitor('b8')"></div></td>
+                    <td><div id="b9" onclick="monitor('b9')"></div></td>
+                </tr>
+            </table>
+
+        <div class="players">
+            <span class="p1">Player1 - X</span>
+            <span class="p2">Player2 - O</span>
+        </div>
+        <div class="btn">
+            <button onclick="button()" class="reset">RESET</button>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
